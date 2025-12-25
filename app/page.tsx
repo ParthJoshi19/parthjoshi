@@ -210,9 +210,9 @@ export default function Home() {
               className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20"
             >
               {[
-                { label: "Projects", value: "20+" },
+                { label: "Projects", value: "15+" },
                 { label: "Experience", value: "2+ Years" },
-                { label: "Clients", value: "30+" },
+                { label: "Technologies", value: "15+" },
               ].map((stat, i) => (
                 <motion.div
                   key={i}

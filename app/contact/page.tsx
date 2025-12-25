@@ -18,7 +18,7 @@ export default function Contact() {
     e.preventDefault()
     setIsSubmitting(true)
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://sample-express-h9d2.onrender.com/send-mail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
