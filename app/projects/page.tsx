@@ -10,8 +10,8 @@ import { ExternalLink, Github } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
+      image:"/project1.png",
       title: "ChatPDF",
-      image:"/chatpdf-project.png",
       description: "AI-powered ChatPDF solution with semantic search and natural language interaction for documents.",
       tags: ["PostgreSQL", "Next.js", "Node.js", "RAG", "OpenAI", "PDF Processing","LLM"],
       github: "https://github.com/ParthJoshi19/chatpdf",

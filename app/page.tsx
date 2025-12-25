@@ -45,8 +45,8 @@ export default function Home() {
 
   const projects = [
     {
+      image: "/project1.png",
       title: "ChatPDF",
-      image: "/chatpdf-project.png",
       description:
         "AI-powered ChatPDF solution with semantic search and natural language interaction for documents.",
       tags: [
