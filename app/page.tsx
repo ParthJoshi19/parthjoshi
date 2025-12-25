@@ -160,7 +160,7 @@ export default function Home() {
                       style={{whiteSpace:"pre-line"}}
                       className="gradient-text"
                     />
-                    <span className="blinking-cursor">|</span>
+                    <span className="gradient-text">|</span>
                   </h1>
                   <p className="text-xl text-muted-foreground max-w-2xl mb-8">
                     I’m a full-stack developer with a strong focus on building
