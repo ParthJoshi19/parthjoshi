@@ -9,6 +9,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   const containerVariants = {
@@ -84,7 +85,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-black pt-20 font-[michroma]">
+      <main className="min-h-screen bg-black pt-10 font-[michroma]">
         {/* Hero Section */}
         <section className="relative px-6 py-20 md:py-32 overflow-hidden">
           {/* Background Glow */}
@@ -131,7 +132,35 @@ export default function Home() {
                   <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                     <span className="text-white">Building Digital</span>
                     <br />
-                    <span className="gradient-text">Experiences</span>
+                    <TypeAnimation
+                      sequence={[
+                        "Experiences",
+                        2000,
+                        "",
+                        500,
+                        "Solutions",
+                        2000,
+                        "",
+                        500,
+                        "Innovations",
+                        2000,
+                        "",
+                        500,
+                        "Products",
+                        2000,
+                        "",
+                        500,
+                        "Interfaces",
+                        2000,
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      cursor={true}
+                      repeat={Infinity}
+                      style={{whiteSpace:"pre-line"}}
+                      className="gradient-text"
+                    />
+                    <span className="blinking-cursor">|</span>
                   </h1>
                   <p className="text-xl text-muted-foreground max-w-2xl mb-8">
                     I’m a full-stack developer with a strong focus on building

@@ -11,7 +11,7 @@ export default function Projects() {
   const projects = [
     {
       title: "ChatPDF",
-      image:"/chatpdf.png",
+      image:"/chatpdf-project.png",
       description: "AI-powered ChatPDF solution with semantic search and natural language interaction for documents.",
       tags: ["PostgreSQL", "Next.js", "Node.js", "RAG", "OpenAI", "PDF Processing","LLM"],
       github: "https://github.com/ParthJoshi19/chatpdf",
